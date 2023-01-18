@@ -1,78 +1,62 @@
-.Profile{
-    max-width: 600px;
-    margin: 10px auto;
+.Profile {
+  max-width: 700px;
+  margin: 10px auto;
 }
 
-.profile-ramka{
-    display: flex;
-    justify-content: space-evenly;
-    padding-top: 15px;
+.profile-ramka {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15px;
 }
 
-.profile-image>img{
-    width: 160px;
-    height: 160px;
-    object-fit: contain;
-    border-radius: 100px;
+.profile-image > img {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 100px;
 }
 
-.pro-info{
-    text-align: left;
+.profile-data > button {
+  margin-right: 10px;
+}
+.pro-info {
+  text-align: left;
 }
 
-.profile-data>h1{
-    padding-top: 18px;
+.profile-data > h1 {
+  padding-top: 18px;
+  font-size: 2rem;
 }
 
-
-.pro-info{
-    display: flex;
-    padding-top: 30px;
+.pro-info {
+  display: flex;
+  padding-top: 30px;
 }
 
-.pro-info>p{
-    padding: 0 7px;
+.pro-info > p {
+  padding: 0 7px;
 }
 
-.hr{
-    width: 90%;
-    margin: 25px auto;
-    opacity: 0.8;
+.hr {
+  width: 90%;
+  margin: 25px auto;
+  opacity: 0.8;
 }
 
-.gallary{
-    /* padding-left: 40px;
+.gallary {
+  /* padding-left: 40px;
     padding-right: 20px; */
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
 }
 
-.gallary img{
-    width: 30%;
-    margin: 10px;
+.gallary img {
+  width: 30%;
+  margin: 10px;
 }
 
-.changePic{
-    padding-top: 10px;
-    /* padding-bottom: 10px; */
-    background-color: white;
-    width: 500px;
-    border-radius: 15px;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    border-radius: 20px;
-
+.item:hover {
+  cursor: pointer;
+  filter: brightness(80%);
 }
-.changePic div {
-    padding: 10px 80px;
-}
-.upload-btn {
-    cursor: pointer;
-    background: none;
-    border: none;
-    font-weight: bolder;
-    font-size: 15px;
-  }
